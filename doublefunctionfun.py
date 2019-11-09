@@ -16,7 +16,9 @@ def create_message(input_number, input_string):
 def gettenmoney():
     i = 1
     while(i <= 10):
-        print(create_message(i, getmoney()))
+        cash_string = getmoney()
+        count_of_cash = create_message(i, cash_string)
+        print(count_of_cash)
         i+=1
 
 # run gettenmoney
