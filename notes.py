@@ -21,4 +21,4 @@
 # Down the road stuff...
 # databases
 # recursion
-# poop! 
+# sorting algos! 
