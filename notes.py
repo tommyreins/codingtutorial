@@ -6,6 +6,7 @@
 # while loop
 # integer, float, strings
 # AND vs OR
+# how to use .git
 
 # WHAT'S NEXT...
 
