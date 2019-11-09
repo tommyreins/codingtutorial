@@ -3,8 +3,13 @@
 def getmoney():
     print("cash")
 
-# run the function 10 times
-i = 0
-while(i < 10):
-    getmoney()
-    i+=1
+# function name: "gettenmoney"
+# behavior: calls getmoney 10 times
+def gettenmoney():
+    i = 0
+    while(i < 10):
+        getmoney()
+        i+=1
+
+# run gettenmoney
+gettenmoney()
