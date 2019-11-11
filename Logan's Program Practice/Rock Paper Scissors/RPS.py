@@ -11,7 +11,6 @@ def choices() :
             computer = random.choice(computerlist)
             print(computer)
             return player, computer
-            break
         else :
             print('Not a valid response')
 

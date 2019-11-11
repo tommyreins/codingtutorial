@@ -15,7 +15,6 @@ def choices() : #Define the function choices()
             computer = random.choice(computerlist) #chooses at random out of the list and sets it to the variable computer
             print(computer) #prints the computers random choice
             return player, computer #this is setting the value of the function temporarily to 'choices(player, computer) so that i may use those values when i set the function equal variables
-            break # this breaks the chain
         else : #if the input is 'rock' or 'paper or 'scissors'
             print('Not a valid response') # then tell them this and return to the top of the loop to try again
 
